@@ -1,5 +1,5 @@
 classes = 1
-train = /Users/jigyayadav/Desktop/UCSDAcads/Quarter4/CSE293.nosync/darknet/data/DolphinData/training_file.txt
-valid = /Users/jigyayadav/Desktop/UCSDAcads/Quarter4/CSE293.nosync/darknet/data/DolphinData/test_file.txt
+train = ./data/DolphinData/training_file.txt
+valid = ./data/DolphinData/test_file.txt
 names = DolphinTracking.names
-backup = /Users/jigyayadav/Desktop/UCSDAcads/Quarter4/CSE293.nosync/darknet/backup
+backup = ./darknet/backup
