@@ -358,7 +358,7 @@ layer parse_region(list *options, size_params params)
 
     layer l = make_region_layer(params.batch, params.w, params.h, num, classes, coords);
 
-    cout << l.outputs << " " << params.inputs << endl;
+    fprintf(stderr, "L.outputs: %d params.inputs: %d\n", l.outputs, params.inputs);
     assert(l.outputs == params.inputs);
 
     l.log = option_find_int_quiet(options, "log", 0);
