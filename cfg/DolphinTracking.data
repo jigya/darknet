@@ -1,5 +1,5 @@
 classes = 1
-train = ./data/DolphinData/training_file.txt
-valid = ./data/DolphinData/test_file.txt
+train = ./data/DolphinData/training_file_shuffled.txt
+valid = ./data/DolphinData/test_file_shuffled.txt
 names = DolphinTracking.names
-backup = ./darknet/backup
+backup = ./darknet/backup_dolphintracking
