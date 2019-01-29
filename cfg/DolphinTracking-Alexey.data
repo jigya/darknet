@@ -1,0 +1,5 @@
+classes = 1
+train = ../../darknet/data/DolphinData/training_file_shuffled.txt
+valid = ../../darknet/data/DolphinData/test_file_shuffled_Alexey.txt
+names = ../../darknet/cfg/DolphinTracking.names
+backup = ./darknet/backup_dolphintracking
